@@ -91,7 +91,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24,
+    applicationCooldown: 0,
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7,
@@ -178,9 +178,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Washington Dollars",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "WSD",
       // Currency symbol shown in balances.
       symbol: "$",
     },
